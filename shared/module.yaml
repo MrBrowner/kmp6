@@ -1,0 +1,22 @@
+product:
+  type: lib
+  platforms: [ jvm, android, iosArm64, iosSimulatorArm64, iosX64 ]
+
+dependencies:
+  #  from buil-in libs
+  - $compose.foundation: exported
+  - $compose.material3: exported
+  #    kotlin lang
+  - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2
+
+settings:
+  #  jvm:
+  #    jdk:
+  #      version: 21
+  compose:
+    enabled: true
+  #    version: 1.10.1
+  kotlin:
+    serialization:
+      enabled: true
+      version: 1.10.0
