@@ -4,6 +4,7 @@ product:
 
 dependencies:
   #  from buil-in libs
+  - $compose.runtime: exported
   - $compose.foundation: exported
   - $compose.material3: exported
   #    kotlin lang
@@ -19,4 +20,4 @@ settings:
   kotlin:
     serialization:
       enabled: true
-      version: 1.10.0
+#      version: 1.10.0
